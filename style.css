@@ -105,21 +105,24 @@ section{
 }
 .card1{
     width: 300px;
-    height: 200px;
+    height: 330px;
     border: 1px solid gray;
     margin-right: 20px;
     margin-left: 250px;
+    background-color: rgb(167, 188, 221);
 }
 .card2{
     width: 300px;
-    height: 200px;
+    height: 330px;
     border: 1px solid gray;
     margin-right: 20px;
+    background-color: rgb(255, 196, 229);
 }
 .card3{
     width: 300px;
-    height: 200px;
+    height: 330px;
     border: 1px solid gray;
+    background-color: bisque;
 }
 .icons{
     padding-top: 30px;
@@ -136,4 +139,5 @@ section{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
+    padding-right: 30px;
 }
