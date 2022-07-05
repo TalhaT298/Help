@@ -68,3 +68,20 @@ section{
     align-items: center;
 
 }
+.Humble{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    color: brown;
+    font-style: italic ;
+    font-style: ;
+}
+.do{
+    text-align: center;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+.background{
+    background-color: rgb(21, 1, 29);
+    
+}
