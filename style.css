@@ -68,7 +68,7 @@ section{
     align-items: center;
 
 }
-.Humble{
+.humble{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 30px;
@@ -79,9 +79,61 @@ section{
 .do{
     text-align: center;
     padding-bottom: 30px;
-    color: aliceblue;
+    color: rgb(229, 232, 234);
 }
 .background{
     background-color: rgb(21, 1, 29);
     
+}
+.title2{
+    text-align: center;
+    padding-right: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:20px ;
+    margin: 0 auto;
+}
+.Donate-description{
+    text-align: center;
+    margin-top: 20px;
+}
+.section-two{
+    margin-top: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    margin-left: 250px;
+}
+.card2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+.card3{
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+}
+.icons{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+.box-heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.box-paragraph{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
