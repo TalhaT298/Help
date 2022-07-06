@@ -15,10 +15,10 @@ section{
 .link-donate{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
-    padding: 10px 40px;
+    padding: 20px 40px;
     border-radius: 40px;
     color: white;
-    font-weight: 700;
+    font-weight: 900px;
 }
 .background-image{
     background-image: url(images/donation7.jpg);
@@ -43,18 +43,50 @@ section{
     align-items: center;
     justify-content: space-evenly;
 }
+.link-nai{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 900px;
+}
 .title2-link{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
-    padding: 10px 40px;
+    padding: 20px 60px;
     border-radius: 40px;
     color: white;
-    font-weight: 700;
-    margin-left: 650px;
+    font-weight: 900px;
+    margin-left: 630px;
+    font-size: x-large;
+    
    
 }
 .title2-paragraph{
-    margin-left: 650px;
+    margin-left: 680px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.taka{
+    margin-top: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 360px;
+    margin-right: 500px;
+}
+.taka-box{
+    width: 145px;
+    height: 132px;
+    border: 1px solid gray;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgb(167, 188, 221);
+    border-radius: 10px;
+}
+.taka-title{
+    padding-left: 25px;
+    padding-top: 50px;
 }
 .line-middle{
     text-align: flex;
@@ -63,10 +95,11 @@ section{
     content: "";
     display: block;
     width: 800px;
-    height: 2px;
-    background: #000;
+    height: 1px;
+    background: rgb(58, 56, 56);
     left: 0;
     top: 50%;
+    margin-bottom: 20px;
     
 }
 .second{
@@ -89,7 +122,7 @@ section{
     justify-content: space-evenly;
 }
 .lives{
-    font-size:70px;
+    font-size:50px;
 }
 .lives-paragraph{
     font-size:25px ;
@@ -116,6 +149,7 @@ section{
     font-weight: bold;
     margin-bottom:20px ;
     margin: 0 auto;
+    margin-left: 50px;
 }
 .title3-description{
     text-align: center;
