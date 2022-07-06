@@ -21,7 +21,7 @@ section{
     font-weight: 900px;
 }
 .background-image{
-    background-image: url(images/donation7.jpg);
+    background-image: url(images/donation7\ \(1\).jpg);
     width: 100%;
     height: 100%;
 
@@ -210,13 +210,18 @@ section{
     align-items: center;
 
 }
+button{
+    border: none;
+    padding: 5px 5px;
+    color:black;
+    border-radius: 10px;
+}
 .footer-title{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 30px;
     color: brown;
     font-style: italic ;
-    font-style: ;
 }
 .footer-paragraph{
     text-align: center;
