@@ -10,13 +10,13 @@ section{
     margin-bottom: 100px;
 }
 .orange{
-    color: brown;
+    color: rgb(201, 101, 8);
 }
 .link-donate{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     padding: 20px 40px;
-    border-radius: 40px;
+    border-radius: 10px;
     color: white;
     font-weight: 900px;
 }
@@ -43,7 +43,7 @@ section{
     align-items: center;
     justify-content: space-evenly;
 }
-.link-nai{
+.link-head{
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 40px;
@@ -54,7 +54,7 @@ section{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     padding: 20px 60px;
-    border-radius: 40px;
+    border-radius: 10px;
     color: white;
     font-weight: 900px;
     margin-left: 630px;
@@ -64,8 +64,9 @@ section{
 }
 .title2-paragraph{
     margin-left: 680px;
-    color: #000;
+    color: rgb(130, 123, 123);
     margin-bottom: 20px;
+    
 }
 .taka{
     margin-top: 10px;
@@ -78,10 +79,19 @@ section{
 .taka-box{
     width: 145px;
     height: 132px;
+    border: 1px solid rgb(225, 210, 210);
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgb(230, 235, 243);
+    border-radius: 10px;
+}
+.taka-box-red{
+    width: 145px;
+    height: 132px;
     border: 1px solid gray;
     margin-right: 5px;
     margin-left: 5px;
-    background-color: rgb(167, 188, 221);
+    background-color: rgb(229, 160, 197);
     border-radius: 10px;
 }
 .taka-title{
@@ -101,45 +111,6 @@ section{
     top: 50%;
     margin-bottom: 20px;
     
-}
-.second{
-    display: flex;
-}
-.half-width{
-    width: 50%;
-    padding-left: 5%;
-    
-}
-.half-width img{
-    width: 100%;
-    padding-right: 10%;
-}
-.updates{
-    text-align: middle;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.lives{
-    font-size:50px;
-}
-.lives-paragraph{
-    font-size:25px ;
-}
-.email{
-    width: 600px;
-    height: 200px;
-    background-image: url(images/Untitled\ design\ \(5\).png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
 }
 
 .title3{
@@ -198,6 +169,46 @@ section{
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 30px;
+}
+.donation{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.half-width img{
+    width: 100%;
+    padding-right: 10%;
+}
+
+.donation-lives{
+    font-size:50px;
+}
+.donation-paragraph{
+    font-size:25px ;
+}
+.updates{
+    text-align: middle;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.email{
+    width: 600px;
+    height: 200px;
+    background-image: url(images/Untitled\ design\ \(5\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 .footer-title{
     text-align: center;
