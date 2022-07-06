@@ -36,12 +36,46 @@ section{
     flex-direction: column;
     align-items: center;
 }
+.title2{
+    text-align: middle;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title2-link{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+    margin-left: 650px;
+   
+}
+.title2-paragraph{
+    margin-left: 650px;
+}
+.line-middle{
+    text-align: flex;
+    margin-left: 400px;
+    border-top: 1px solid;
+    content: "";
+    display: block;
+    width: 800px;
+    height: 2px;
+    background: #000;
+    left: 0;
+    top: 50%;
+    
+}
 .second{
     display: flex;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
     width: 100%;
@@ -53,6 +87,12 @@ section{
     margin: 0 auto;
     align-items: center;
     justify-content: space-evenly;
+}
+.lives{
+    font-size:70px;
+}
+.lives-paragraph{
+    font-size:25px ;
 }
 .email{
     width: 600px;
@@ -68,24 +108,8 @@ section{
     align-items: center;
 
 }
-.humble{
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    color: brown;
-    font-style: italic ;
-    font-style: ;
-}
-.do{
-    text-align: center;
-    padding-bottom: 30px;
-    color: rgb(229, 232, 234);
-}
-.background{
-    background-color: rgb(21, 1, 29);
-    
-}
-.title2{
+
+.title3{
     text-align: center;
     padding-right: 50px;
     font-size: 40px;
@@ -93,11 +117,11 @@ section{
     margin-bottom:20px ;
     margin: 0 auto;
 }
-.Donate-description{
+.title3-description{
     text-align: center;
     margin-top: 20px;
 }
-.section-two{
+.section-three{
     margin-top: 10px;
     padding: 50px;
     display: flex;
@@ -140,4 +164,21 @@ section{
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 30px;
+}
+.footer-title{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    color: brown;
+    font-style: italic ;
+    font-style: ;
+}
+.footer-paragraph{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(229, 232, 234);
+}
+.footer-background{
+    background-color: rgb(21, 1, 29);
+    
 }
